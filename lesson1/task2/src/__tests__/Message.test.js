@@ -8,4 +8,10 @@ describe("Message", () => {
 
     expect(wrappedComponent.find(".message").text()).toEqual("text");
   });
+
+  it("shouldn't render if text=null", () => {
+    const wrappedComponent = shallow(<Message text={null} />);
+
+    expect(wrappedComponent.exists(".message")).toEqual(false);
+  });
 });
