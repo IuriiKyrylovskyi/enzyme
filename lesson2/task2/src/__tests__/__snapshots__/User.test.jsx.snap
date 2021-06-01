@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User should render user with data for snapshot 1`] = `
+<div
+  className="user"
+>
+  <img
+    alt="User Avatar"
+    className="user__avatar"
+    src="https://join.com"
+  />
+  <div
+    className="user__info"
+  >
+    <span
+      className="user__name"
+    >
+      John
+    </span>
+    <span
+      className="user__location"
+    >
+      Kyiv
+    </span>
+  </div>
+</div>
+`;
