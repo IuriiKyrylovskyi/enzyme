@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter should display counter with initial value 0 1`] = `
+<div
+  className="counter"
+>
+  <button
+    className="counter__button"
+    onClick={[Function]}
+  >
+    -
+  </button>
+  <span
+    className="counter__value"
+    onClick={[Function]}
+  >
+    0
+  </span>
+  <button
+    className="counter__button"
+    onClick={[Function]}
+  >
+    +
+  </button>
+</div>
+`;
