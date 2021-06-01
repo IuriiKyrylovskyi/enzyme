@@ -12,7 +12,8 @@ describe("Auth", () => {
   it("should display a Login button if user is logged out", () => {
     const wrappedComponent = shallow(<Auth />);
     wrappedComponent.find("Login").prop("onLogin")(); // emulate Login gets prop=onLogin & call() it to fullfill
-    wrappedComponent.find("Logout").prop("onLogout")(); // like: <Logout onLogout={true} />
+    wrappedComponent.find("Logout").prop("onLogout")();
+    // like: <Logout onLogout={true} />
 
     expect(wrappedComponent.find("Login")).toBeTruthy();
   });

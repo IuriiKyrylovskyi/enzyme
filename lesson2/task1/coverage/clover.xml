@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1622555972497" clover="3.2.0">
-  <project timestamp="1622555972497" name="All files">
-    <metrics statements="21" coveredstatements="19" conditionals="4" coveredconditionals="4" methods="9" coveredmethods="7" elements="34" coveredelements="30" complexity="0" loc="21" ncloc="21" packages="1" files="6" classes="6"/>
+<coverage generated="1622558049137" clover="3.2.0">
+  <project timestamp="1622558049137" name="All files">
+    <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="9" coveredmethods="9" elements="34" coveredelements="34" complexity="0" loc="21" ncloc="21" packages="1" files="6" classes="6"/>
     <file name="Auth.jsx" path="C:\#D_Work\Learning\Gromcode\Enzyme\lesson2\task1\src\Auth.jsx">
       <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
       <line num="8" count="3" type="stmt"/>
@@ -28,14 +28,14 @@
       <line num="4" count="1" type="stmt"/>
     </file>
     <file name="Login.jsx" path="C:\#D_Work\Learning\Gromcode\Enzyme\lesson2\task1\src\Login.jsx">
-      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="0" type="stmt"/>
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
     </file>
     <file name="Logout.jsx" path="C:\#D_Work\Learning\Gromcode\Enzyme\lesson2\task1\src\Logout.jsx">
-      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="0" type="stmt"/>
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
     </file>
     <file name="UserGreeting.jsx" path="C:\#D_Work\Learning\Gromcode\Enzyme\lesson2\task1\src\UserGreeting.jsx">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
