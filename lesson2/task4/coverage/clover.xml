@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1622583517600" clover="3.2.0">
-  <project timestamp="1622583517601" name="All files">
+<coverage generated="1622662037144" clover="3.2.0">
+  <project timestamp="1622662037144" name="All files">
     <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1" elements="9" coveredelements="9" complexity="0" loc="6" ncloc="6" packages="1" files="1" classes="1"/>
     <file name="Dialog.jsx" path="C:\#D_Work\Learning\Gromcode\Enzyme\lesson2\task4\src\Dialog.jsx">
       <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <line num="4" count="1" type="stmt"/>
-      <line num="5" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="5" type="cond" truecount="2" falsecount="0"/>
       <line num="6" count="1" type="stmt"/>
-      <line num="8" count="2" type="stmt"/>
+      <line num="8" count="4" type="stmt"/>
       <line num="21" count="1" type="stmt"/>
       <line num="27" count="1" type="stmt"/>
     </file>
