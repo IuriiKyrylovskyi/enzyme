@@ -15,4 +15,10 @@ describe("<TodoList />", () => {
 
     expect(props.getTasksList).toBeCalled();
   });
+
+  it("should display tasks list", () => {
+    const wrappedComponent = shallow(<TodoList {...props} />);
+
+    expect(wrappedComponent.find("Connect(CreateTaskInput)").length).toEqual(1);
+  });
 });
