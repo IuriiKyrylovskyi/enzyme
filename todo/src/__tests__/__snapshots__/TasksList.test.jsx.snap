@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TasksList /> should display tasks list sorted by 'done' status 1`] = `
+<ul
+  className="list"
+>
+  <Task
+    done={true}
+    handleStatusChange={[MockFunction]}
+    handleTaskDelete={[MockFunction]}
+    id="id-1"
+    key="id-1"
+    text="Task 1"
+  />
+  <Task
+    done={false}
+    handleStatusChange={[MockFunction]}
+    handleTaskDelete={[MockFunction]}
+    id="id-2"
+    key="id-2"
+    text="Task 2"
+  />
+  <Task
+    done={true}
+    handleStatusChange={[MockFunction]}
+    handleTaskDelete={[MockFunction]}
+    id="id-3"
+    key="id-3"
+    text="Task 3"
+  />
+</ul>
+`;
