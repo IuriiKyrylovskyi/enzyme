@@ -1,0 +1,502 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Day /> should 1`] = `
+<div
+  className="calendar__day"
+  data-day={25}
+>
+  <Hour
+    dataDay={25}
+    dataHour={0}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    hourEvents={Array []}
+    key="25"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Hour
+    dataDay={25}
+    dataHour={1}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    hourEvents={Array []}
+    key="26"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Hour
+    dataDay={25}
+    dataHour={2}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    hourEvents={Array []}
+    key="27"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Hour
+    dataDay={25}
+    dataHour={3}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    hourEvents={Array []}
+    key="28"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Hour
+    dataDay={25}
+    dataHour={4}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    hourEvents={
+      Array [
+        Object {
+          "createdAt": "2021-06-08T06:15:05.972Z",
+          "date": "2021-06-17",
+          "description": "",
+          "endTime": "10:00",
+          "id": "30",
+          "name": "Kenneth Wiegand",
+          "startTime": "04:00",
+          "title": "",
+        },
+      ]
+    }
+    key="29"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Hour
+    dataDay={25}
+    dataHour={5}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    hourEvents={Array []}
+    key="30"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Hour
+    dataDay={25}
+    dataHour={6}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    hourEvents={Array []}
+    key="31"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Hour
+    dataDay={25}
+    dataHour={7}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    hourEvents={Array []}
+    key="32"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Hour
+    dataDay={25}
+    dataHour={8}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    hourEvents={Array []}
+    key="33"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Hour
+    dataDay={25}
+    dataHour={9}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    hourEvents={Array []}
+    key="34"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Hour
+    dataDay={25}
+    dataHour={10}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    hourEvents={Array []}
+    key="35"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Hour
+    dataDay={25}
+    dataHour={11}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    hourEvents={Array []}
+    key="36"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Hour
+    dataDay={25}
+    dataHour={12}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    hourEvents={Array []}
+    key="37"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Hour
+    dataDay={25}
+    dataHour={13}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    hourEvents={Array []}
+    key="38"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Hour
+    dataDay={25}
+    dataHour={14}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    hourEvents={Array []}
+    key="39"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Hour
+    dataDay={25}
+    dataHour={15}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    hourEvents={Array []}
+    key="40"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Hour
+    dataDay={25}
+    dataHour={16}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    hourEvents={Array []}
+    key="41"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Hour
+    dataDay={25}
+    dataHour={17}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    hourEvents={Array []}
+    key="42"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Hour
+    dataDay={25}
+    dataHour={18}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    hourEvents={Array []}
+    key="43"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Hour
+    dataDay={25}
+    dataHour={19}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    hourEvents={Array []}
+    key="44"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Hour
+    dataDay={25}
+    dataHour={20}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    hourEvents={Array []}
+    key="45"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Hour
+    dataDay={25}
+    dataHour={21}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    hourEvents={Array []}
+    key="46"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Hour
+    dataDay={25}
+    dataHour={22}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    hourEvents={Array []}
+    key="47"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Hour
+    dataDay={25}
+    dataHour={23}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    hourEvents={Array []}
+    key="48"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+</div>
+`;
