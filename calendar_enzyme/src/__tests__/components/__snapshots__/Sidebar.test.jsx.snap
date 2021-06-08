@@ -6,7 +6,7 @@ exports[`<Sidebar /> should display component 1`] = `
 >
   <div
     className="time-slot"
-    key="9.358485336576194"
+    key="77.754933531842"
   >
     <span
       className="time-slot__time"
@@ -16,7 +16,7 @@ exports[`<Sidebar /> should display component 1`] = `
   </div>
   <div
     className="time-slot"
-    key="48.987849746002986"
+    key="19.06645768360451"
   >
     <span
       className="time-slot__time"
@@ -26,7 +26,7 @@ exports[`<Sidebar /> should display component 1`] = `
   </div>
   <div
     className="time-slot"
-    key="79.18587476796404"
+    key="19.140789227547494"
   >
     <span
       className="time-slot__time"
@@ -36,7 +36,7 @@ exports[`<Sidebar /> should display component 1`] = `
   </div>
   <div
     className="time-slot"
-    key="7.539399181168371"
+    key="10.953844979992455"
   >
     <span
       className="time-slot__time"
@@ -46,7 +46,7 @@ exports[`<Sidebar /> should display component 1`] = `
   </div>
   <div
     className="time-slot"
-    key="65.38307064244722"
+    key="32.50668636704843"
   >
     <span
       className="time-slot__time"
@@ -56,7 +56,7 @@ exports[`<Sidebar /> should display component 1`] = `
   </div>
   <div
     className="time-slot"
-    key="40.51252396791665"
+    key="24.260347390059888"
   >
     <span
       className="time-slot__time"
@@ -66,7 +66,7 @@ exports[`<Sidebar /> should display component 1`] = `
   </div>
   <div
     className="time-slot"
-    key="83.78623829512222"
+    key="79.31557475251465"
   >
     <span
       className="time-slot__time"
@@ -76,7 +76,7 @@ exports[`<Sidebar /> should display component 1`] = `
   </div>
   <div
     className="time-slot"
-    key="58.719613012052505"
+    key="71.13200738357048"
   >
     <span
       className="time-slot__time"
@@ -86,7 +86,7 @@ exports[`<Sidebar /> should display component 1`] = `
   </div>
   <div
     className="time-slot"
-    key="61.37785748813791"
+    key="38.71020218583916"
   >
     <span
       className="time-slot__time"
@@ -96,7 +96,7 @@ exports[`<Sidebar /> should display component 1`] = `
   </div>
   <div
     className="time-slot"
-    key="34.59701928721783"
+    key="9.997687330260675"
   >
     <span
       className="time-slot__time"
@@ -106,7 +106,7 @@ exports[`<Sidebar /> should display component 1`] = `
   </div>
   <div
     className="time-slot"
-    key="86.66602486846946"
+    key="36.34650891421718"
   >
     <span
       className="time-slot__time"
@@ -116,7 +116,7 @@ exports[`<Sidebar /> should display component 1`] = `
   </div>
   <div
     className="time-slot"
-    key="95.62830261461875"
+    key="62.820922037356475"
   >
     <span
       className="time-slot__time"
@@ -126,7 +126,7 @@ exports[`<Sidebar /> should display component 1`] = `
   </div>
   <div
     className="time-slot"
-    key="7.433452926493134"
+    key="12.851582338097224"
   >
     <span
       className="time-slot__time"
@@ -136,7 +136,7 @@ exports[`<Sidebar /> should display component 1`] = `
   </div>
   <div
     className="time-slot"
-    key="67.47930401292015"
+    key="40.74562678496654"
   >
     <span
       className="time-slot__time"
@@ -146,7 +146,7 @@ exports[`<Sidebar /> should display component 1`] = `
   </div>
   <div
     className="time-slot"
-    key="71.67929451812469"
+    key="64.23201471449713"
   >
     <span
       className="time-slot__time"
@@ -156,7 +156,7 @@ exports[`<Sidebar /> should display component 1`] = `
   </div>
   <div
     className="time-slot"
-    key="44.627087283562325"
+    key="25.221108936852254"
   >
     <span
       className="time-slot__time"
@@ -166,7 +166,7 @@ exports[`<Sidebar /> should display component 1`] = `
   </div>
   <div
     className="time-slot"
-    key="59.123794087336165"
+    key="98.38088432532743"
   >
     <span
       className="time-slot__time"
@@ -176,7 +176,7 @@ exports[`<Sidebar /> should display component 1`] = `
   </div>
   <div
     className="time-slot"
-    key="76.18100821857657"
+    key="87.14441528366719"
   >
     <span
       className="time-slot__time"
@@ -186,7 +186,7 @@ exports[`<Sidebar /> should display component 1`] = `
   </div>
   <div
     className="time-slot"
-    key="24.282221983423913"
+    key="66.83029606245366"
   >
     <span
       className="time-slot__time"
@@ -196,7 +196,7 @@ exports[`<Sidebar /> should display component 1`] = `
   </div>
   <div
     className="time-slot"
-    key="0.8806705207902388"
+    key="92.19154827324927"
   >
     <span
       className="time-slot__time"
@@ -206,7 +206,7 @@ exports[`<Sidebar /> should display component 1`] = `
   </div>
   <div
     className="time-slot"
-    key="98.47821893382516"
+    key="2.072873820925092"
   >
     <span
       className="time-slot__time"
@@ -216,7 +216,7 @@ exports[`<Sidebar /> should display component 1`] = `
   </div>
   <div
     className="time-slot"
-    key="59.7328829901909"
+    key="33.56699629855371"
   >
     <span
       className="time-slot__time"
@@ -226,7 +226,7 @@ exports[`<Sidebar /> should display component 1`] = `
   </div>
   <div
     className="time-slot"
-    key="65.96213337850723"
+    key="31.254208117553418"
   >
     <span
       className="time-slot__time"
@@ -236,7 +236,7 @@ exports[`<Sidebar /> should display component 1`] = `
   </div>
   <div
     className="time-slot"
-    key="53.610226188104136"
+    key="28.95651235235661"
   >
     <span
       className="time-slot__time"

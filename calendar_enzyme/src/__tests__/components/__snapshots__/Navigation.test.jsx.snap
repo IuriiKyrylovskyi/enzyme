@@ -6,7 +6,7 @@ exports[`<Navigation /> should display component 1`] = `
 >
   <div
     className="calendar__day-label day-label"
-    key="25.308976727560896"
+    key="83.56556136075315"
   >
     <span
       className="day-label__day-name"
@@ -21,7 +21,7 @@ exports[`<Navigation /> should display component 1`] = `
   </div>
   <div
     className="calendar__day-label day-label"
-    key="58.34905949030602"
+    key="76.86432528061131"
   >
     <span
       className="day-label__day-name"
@@ -36,7 +36,7 @@ exports[`<Navigation /> should display component 1`] = `
   </div>
   <div
     className="calendar__day-label day-label"
-    key="13.645600875943153"
+    key="4.657877738070071"
   >
     <span
       className="day-label__day-name"
@@ -51,7 +51,7 @@ exports[`<Navigation /> should display component 1`] = `
   </div>
   <div
     className="calendar__day-label day-label"
-    key="92.38295979760606"
+    key="82.1435584396841"
   >
     <span
       className="day-label__day-name"
@@ -66,7 +66,7 @@ exports[`<Navigation /> should display component 1`] = `
   </div>
   <div
     className="calendar__day-label day-label"
-    key="93.05874259812445"
+    key="97.91885777549017"
   >
     <span
       className="day-label__day-name"
@@ -81,7 +81,7 @@ exports[`<Navigation /> should display component 1`] = `
   </div>
   <div
     className="calendar__day-label day-label"
-    key="94.00819837691228"
+    key="91.07670494369393"
   >
     <span
       className="day-label__day-name"
@@ -96,7 +96,7 @@ exports[`<Navigation /> should display component 1`] = `
   </div>
   <div
     className="calendar__day-label day-label"
-    key="85.83092512681958"
+    key="25.89141511346511"
   >
     <span
       className="day-label__day-name"

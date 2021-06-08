@@ -5,7 +5,7 @@ exports[`<TimeLine /> should render component 1`] = `
   className="time-line"
   style={
     Object {
-      "top": 48,
+      "top": 16,
     }
   }
 />

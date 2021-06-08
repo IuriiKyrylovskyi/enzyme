@@ -26,8 +26,13 @@ describe("<Header />", () => {
 
   //   expect(props.onOpenModal).toBeCalled();
   // });
+  it("should open modal on button click", () => {
+    wrappedComponent.find(".create-event-btn").prop("onClick")();
 
-  it("should display 'Create'", () => {
+    expect(wrappedComponent.onOpenModal).toBeFalsy();
+  });
+
+  it("should modal be closed", () => {
     expect(wrappedComponent.find(".create-event-btn").text()).toEqual("Create");
   });
 
