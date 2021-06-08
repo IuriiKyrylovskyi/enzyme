@@ -1,10 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Header from "./components/header/Header";
 import Calendar from "./components/calendar/Calendar";
-import { useGlobalContext } from "./context";
-
 import { getWeekStartDate, generateWeekRange } from "../src/utils/dateUtils.js";
-
 import "./common.scss";
 
 const App = () => {
@@ -31,8 +28,6 @@ const App = () => {
 
   const weekDates = generateWeekRange(getWeekStartDate(weekStartDate));
 
-  const { isEvent, isOpen } = useGlobalContext();
-
   return (
     <>
       <Header
@@ -44,8 +39,6 @@ const App = () => {
       <Calendar
         weekDates={weekDates}
         weekStartDate={weekStartDate}
-        isEvent={isEvent}
-        isOpen={isOpen}
         //
       />
     </>

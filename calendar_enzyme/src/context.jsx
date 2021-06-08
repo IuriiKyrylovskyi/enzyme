@@ -5,7 +5,6 @@ const AppContext = React.createContext();
 
 const AppProvider = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isEvent, setEvent] = useState(false);
 
   const [dateInput, setDateInput] = useState("");
   const [startTimeInput, setStartTimeInput] = useState("");
@@ -15,50 +14,24 @@ const AppProvider = ({ children }) => {
     setIsOpen(false);
   };
 
-  const onOpenModal = (e) => {
-    if (isEvent || e.target.closest(".event")) {
-      return; // setEvent(false);
-    }
-    if (e.target.className === "calendar__time-slot") {
-      // console.log(onOpenModalStartTime());
-      setDateInput("");
-      setStartTimeInput("");
-      setEndTimeInput("");
+  const onOpenModal = ({ start, end }) => {
+    setDateInput(start ? moment(start).format("YYYY-MM-DD") : moment().format("YYYY-MM-DD"));
+    setStartTimeInput(start ? moment(start).format("HH:mm") : moment().format("HH:mm"));
+    setEndTimeInput(end ? moment(end).format("HH:mm") : moment().format("HH:mm"));
 
-      setEvent(false);
-      setIsOpen(true);
-      console.log(e);
-      console.log(e.nativeEvent);
-      return;
-    }
-
-    if (!e.target.closest("event")) {
-      console.log(e.target.className);
-      setDateInput(moment().format("YYYY-MM-DD"));
-      setStartTimeInput(moment().format("HH:mm"));
-      setEndTimeInput(moment().format("HH:mm"));
-
-      setEvent(false);
-      setIsOpen(true);
-    }
+    setIsOpen(true);
   };
-
-  // function onOpenModalStartTime(start) {
-  //   setStartTimeInput(start);
-  // }
 
   return (
     <AppContext.Provider
       value={{
         isOpen,
-        isEvent,
         onCloseModal,
         onOpenModal,
 
         dateInput,
         startTimeInput,
         endTimeInput,
-        // onOpenModalStartTime,
       }}
     >
       {children}

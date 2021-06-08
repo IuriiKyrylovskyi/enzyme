@@ -2,43 +2,21 @@ import React, { useState } from "react";
 // import { createPortal } from "react-dom";
 import { useGlobalContext } from "../../context";
 import { createEvent } from "../../gateway/gateway";
-// import moment from "moment";
 import "./modal.scss";
-
+import { validateEventRange, validateEventsInCalendarCell, validateInputMins } from "../../validation/validateModalInputs";
+import PropTypes from "prop-types";
 // const modalRoot = document.querySelector("#modal");
 
 const Modal = (props) => {
-  const { dateInput, startTimeInput, endTimeInput } = useGlobalContext();
+  const { isOpen, onCloseModal, dateInput, startTimeInput, endTimeInput } = useGlobalContext();
 
   const [form, setForm] = useState({
     title: "",
     date: dateInput,
-    // date: moment().format("YYYY-MM-DD"),
     startTime: startTimeInput,
-    // startTime: moment().format("HH:mm"),
     endTime: endTimeInput,
-    // endTime: moment().format("HH:mm"),
     description: "",
   });
-
-  // function handleInputsField(e) {
-  //   if (e.target.className === "event") {
-  //     dateInput = 0;
-  //     startTimeInput = 0;
-  //     endTimeInput = 0;
-  //     return;
-  //   }
-  //   dateInput = moment().format("YYYY-MM-DD");
-  //   startTimeInput = moment().format("HH:mm");
-  //   endTimeInput = moment().format("HH:mm");
-  // }
-
-  // const element = document.createElement("div");
-
-  // useEffect(() => {
-  //   modalRoot.appendChild(element);
-  //   return modalRoot.removeChild(element);
-  // });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -52,7 +30,8 @@ const Modal = (props) => {
   const handleEventCreate = () => {
     const { title, date, startTime, endTime, description } = form;
     const { fetchEvents } = props;
-    let id; // = Math.random()*1000;
+    let id;
+
     const newEvent = {
       id: id,
       title: title,
@@ -62,25 +41,21 @@ const Modal = (props) => {
       description: description,
     };
 
-    createEvent(newEvent).then(() => fetchEvents());
-  };
+    const start = newEvent.startTime;
+    const end = newEvent.endTime;
 
-  const { isOpen, onCloseModal } = useGlobalContext();
+    if (!validateInputMins(start) || !validateInputMins(end)) {
+      return alert("minuts should be multiple of 15");
+    }
+
+    !validateEventRange(date, startTime, endTime) ? alert("Event shouldn't be more than 6 hours!") : !validateEventsInCalendarCell(props.events, newEvent) ? alert("Put 1 event at a time period") : createEvent(newEvent).then(() => fetchEvents());
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(form);
     handleEventCreate();
     onCloseModal();
   };
-
-  // const dayMonthYear = moment().format("YYYY-MM-DD");
-  // const timeStart = moment().format("HH:mm");
-  // const timeEnd = moment().format("HH:mm");
-
-  // console.log(timeStart);
-  // console.log(timeEnd);
-  // console.log(this.state);
 
   if (!isOpen) {
     return null;
@@ -114,14 +89,7 @@ const Modal = (props) => {
               //
             />
             <div className="event-form__time">
-              <input
-                type="date"
-                name="date"
-                className="event-form__field"
-                value={date}
-                onChange={handleChange}
-                // onSelect={selected}
-              />
+              <input type="date" name="date" className="event-form__field" value={date} onChange={handleChange} />
               <input
                 type="time"
                 name="startTime"
@@ -162,6 +130,22 @@ const Modal = (props) => {
     // ,
     // element
   );
+};
+
+Modal.propTypes = {
+  isOpen: PropTypes.bool.isRequired,
+  onCloseModal: PropTypes.func,
+  dateInput: PropTypes.instanceOf(Date).isRequired,
+  startTimeInput: PropTypes.string.isRequired,
+  endTimeInput: PropTypes.string.isRequired,
+  fetchEvents: PropTypes.func,
+};
+
+Modal.defaultProps = {
+  isOpen: false,
+  dateInput: new Date(),
+  startTimeInput: "00:00",
+  endTimeInput: "00:00",
 };
 
 export default Modal;

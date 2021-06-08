@@ -1,25 +1,24 @@
 import React from "react";
 import { useGlobalContext } from "../../context";
-// import Modal from "../modal/Modal";
-
-// import moment from 'moment';
-
-import { months } from "../../utils/dateUtils.js";
-
+import PropTypes from "prop-types";
+import { months } from "../../utils/dateUtils";
 import "./header.scss";
 
 const Header = (props) => {
-  const { isOpen, onOpenModal, onCloseModal } = useGlobalContext();
+  const { onOpenModal } = useGlobalContext();
   const { weekDates, handleTodayBtn, handleArrowBtn } = props;
-  // const prevMonth = moment(props.weekDates[0]).format('MMM');
-  // const nextMonth = moment(props.weekDates[6]).format('MMM');
 
   const monthAtWeekStart = months[new Date(weekDates[0]).getMonth()];
   const monthAtWeekEnd = months[new Date(weekDates[6]).getMonth()];
 
   return (
     <header className="header">
-      <button className="button create-event-btn" onClick={onOpenModal}>
+      <button
+        className="button create-event-btn"
+        onClick={() => {
+          onOpenModal({});
+        }}
+      >
         <i className="fas fa-plus create-event-btn__icon"></i>Create
       </button>
       <div className="navigation">
@@ -34,9 +33,20 @@ const Header = (props) => {
         </button>
         <span className="navigation__displayed-month">{`${monthAtWeekStart === monthAtWeekEnd ? monthAtWeekStart : monthAtWeekStart + " - " + monthAtWeekEnd}`}</span>
       </div>
-      {/* {isOpen && <Modal isOpen={isOpen} onCloseModal={onCloseModal} />} */}
     </header>
   );
+};
+
+Header.propTypes = {
+  weekDates: PropTypes.array.isRequired,
+  handleTodayBtn: PropTypes.func.isRequired,
+  handleArrowBtn: PropTypes.func.isRequired,
+  onOpenModal: PropTypes.func.isRequired,
+};
+
+Header.defaultProps = {
+  weekDates: [],
+  onOpenModal: () => ({}),
 };
 
 export default Header;
