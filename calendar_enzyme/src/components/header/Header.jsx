@@ -15,9 +15,7 @@ const Header = (props) => {
     <header className="header">
       <button
         className="button create-event-btn"
-        onClick={() => {
-          onOpenModal({});
-        }}
+        onClick={() => onOpenModal({})}
       >
         <i className="fas fa-plus create-event-btn__icon"></i>Create
       </button>
@@ -38,10 +36,10 @@ const Header = (props) => {
 };
 
 Header.propTypes = {
-  weekDates: PropTypes.array.isRequired,
+  weekDates: PropTypes.array,
   handleTodayBtn: PropTypes.func.isRequired,
   handleArrowBtn: PropTypes.func.isRequired,
-  onOpenModal: PropTypes.func.isRequired,
+  onOpenModal: PropTypes.func,
 };
 
 Header.defaultProps = {

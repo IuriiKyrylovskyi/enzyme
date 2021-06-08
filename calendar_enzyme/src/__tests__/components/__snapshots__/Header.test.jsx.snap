@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should display component 1`] = `
+<AppProvider>
+  <Header
+    handleArrowBtn={[MockFunction]}
+    handleTodayBtn={[MockFunction]}
+    onOpenModal={[MockFunction]}
+    weekDates={Array []}
+  >
+    <header
+      className="header"
+    >
+      <button
+        className="button create-event-btn"
+        onClick={[Function]}
+      >
+        <i
+          className="fas fa-plus create-event-btn__icon"
+        />
+        Create
+      </button>
+      <div
+        className="navigation"
+      >
+        <button
+          className="navigation__today-btn button"
+          onClick={[MockFunction]}
+        >
+          Today
+        </button>
+        <button
+          className="icon-button navigation__nav-icon"
+          onClick={[Function]}
+        >
+          <i
+            className="fas fa-chevron-left"
+          />
+        </button>
+        <button
+          className="icon-button navigation__nav-icon"
+          onClick={[Function]}
+        >
+          <i
+            className="fas fa-chevron-right"
+          />
+        </button>
+        <span
+          className="navigation__displayed-month"
+        >
+          undefined
+        </span>
+      </div>
+    </header>
+  </Header>
+</AppProvider>
+`;
