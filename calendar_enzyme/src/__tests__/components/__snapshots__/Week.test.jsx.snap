@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Week /> should display component 1`] = `
+<div
+  className="calendar__week"
+>
+  <Day
+    dataDay={22}
+    dayEvents={Array []}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    key="22"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Day
+    dataDay={23}
+    dayEvents={Array []}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    key="23"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Day
+    dataDay={24}
+    dayEvents={Array []}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    key="24"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Day
+    dataDay={25}
+    dayEvents={Array []}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    key="25"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Day
+    dataDay={26}
+    dayEvents={Array []}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    key="26"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Day
+    dataDay={27}
+    dayEvents={Array []}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    key="27"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+  <Day
+    dataDay={28}
+    dayEvents={Array []}
+    deleteEvent={[MockFunction]}
+    fetchEvents={[MockFunction]}
+    key="28"
+    weekDates={
+      Array [
+        2019-04-22T10:20:30.000Z,
+        2019-04-23T10:20:30.000Z,
+        2019-04-24T10:20:30.000Z,
+        2019-04-25T10:20:30.000Z,
+        2019-04-26T10:20:30.000Z,
+        2019-04-27T10:20:30.000Z,
+        2019-04-28T10:20:30.000Z,
+      ]
+    }
+    weekStartDate={2019-04-22T10:20:30.000Z}
+  />
+</div>
+`;
