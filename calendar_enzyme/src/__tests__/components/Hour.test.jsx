@@ -1,5 +1,5 @@
 import React from "react";
-import { mount, shallow } from "enzyme";
+import { mount } from "enzyme";
 import { AppProvider } from "../../context";
 import Hour from "../../components/hour/Hour";
 
@@ -30,14 +30,6 @@ describe("<Hour />", () => {
 
     expect(onOpenModal).not.toBeCalled();
   });
-
-  // it("should open modal on click", () => {
-  //   const onOpenModal = () => jest.fn(10, 15);
-  //   props.dataDay = 10;
-  //   wrappedComponent.find(".calendar__time-slot div").at(0).prop("onClick");
-
-  //   expect(onOpenModal).toBeCalled();
-  // });
 });
 
 //---------------------------------------------
@@ -52,7 +44,7 @@ describe("Hour component", () => {
     dataDay: 23,
     dataHour: 10,
   };
-  
+
   const setUp = () =>
     mount(
       <AppProvider>

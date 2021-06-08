@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TimeLine /> should render component 1`] = `
+<div
+  className="time-line"
+  style={
+    Object {
+      "top": 48,
+    }
+  }
+/>
+`;
